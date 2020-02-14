@@ -1,0 +1,21 @@
+fn main() {
+  let x = 5;
+  x = 6 * 7;
+  let isBigger = false;
+  read_line(&y);
+  if(y > x) {
+    println!("yBigger");
+  }
+  else {
+    println!("xBigger");
+    isBigger = true;
+  }
+  if(x <= y) {
+    while(x < y) {
+      x = x + 1;
+      println!("valorX", x);
+    }
+    isBigger = true;
+  }
+}
+
